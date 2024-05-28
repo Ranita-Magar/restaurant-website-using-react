@@ -1,7 +1,11 @@
 import React from "react";
 
 import { images } from "../../constants";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaInstagramSquare,
+} from "react-icons/fa";
 import { FooterOverlay, Newsletter } from "../../components";
 import "./Footer.css";
 
@@ -32,9 +36,9 @@ const Footer = () => (
         />
 
         <div className="app__footer-links_icons">
-          <FaFacebook />
-          <FaTwitter />
-          <FaInstagram />
+          <FaFacebookSquare />
+          <FaTwitterSquare />
+          <FaInstagramSquare />
         </div>
       </div>
 
