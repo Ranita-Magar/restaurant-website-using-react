@@ -36,11 +36,11 @@
     margin-bottom: 1rem;
 }
 
-.app__footer-links_icon {
+.app__footer-links_icons {
     margin-top: 0.5rems;
 }
 
-.app__footer-links_icon svg {
+.app__footer-links_icons svg {
     color: var(--color-white);
     margin: .5rem;
     font-size: 24px;
